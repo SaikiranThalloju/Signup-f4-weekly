@@ -1,0 +1,44 @@
+*{
+margin: 0%;
+padding: 0%;
+/* height: fit-content; */
+font-family: sans-serif;
+}
+
+.signup{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 10% 40%;
+    /* border: 2px solid aquamarine; */
+}
+
+input{
+    width : 300px;
+    height : 25px;
+    border-radius: 5px;
+    /* border: none */
+}
+input:active{
+border: 2px solid aquamarine;
+}
+
+p{
+    margin-bottom: 12px;
+}
+button{
+    width: 100px ;
+    height: 30px;
+    background-color : rgb(0, 47, 255);
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+h3{
+    margin-top: 12px;
+}
